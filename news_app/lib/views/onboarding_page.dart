@@ -1,6 +1,6 @@
 //import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:news_app/res/consts/colors.dart';
+//import 'package:news_app/res/consts/colors.dart';
 import 'package:news_app/res/consts/consts.dart';
 import 'package:velocity_x/velocity_x.dart';
 import '../controller/onboarding_controller.dart';

@@ -1,4 +1,5 @@
-import 'package:news_app/res/consts/colors.dart';
+//import 'package:news_app/res/consts/colors.dart';
+//import 'package:news_app/res/consts/colors.dart';
 import 'package:news_app/res/consts/consts.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:news_app/res/routes/routes.dart';
@@ -18,6 +19,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: AppStrings.appName,
       theme: ThemeData(
+        appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(
+            color: AppColors.icon,
+          ),
+          backgroundColor: Colors.transparent,
+          elevation: 0.0,
+        ),
         fontFamily: AppFonts.regular,
         scaffoldBackgroundColor: AppColors.background,
         iconTheme: const IconThemeData(

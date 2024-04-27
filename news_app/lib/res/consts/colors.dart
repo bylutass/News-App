@@ -7,7 +7,7 @@ class AppColors {
       primaryButton = Color(0xff7C4DFF),
       secondaryButton = Color(0xff2196F3),
       background = Color(0xfff5f5f5),
-      white= Color(0xffffffff),
+      white = Color(0xffffffff),
       darkGrey = Color(0xffAFB4B8),
       icon = Color(0xff1f1f1f),
       sliderDot = Color(0xffAFB4B8),

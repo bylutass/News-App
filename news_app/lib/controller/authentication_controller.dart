@@ -1,9 +1,10 @@
 import 'package:get/get.dart';
+import '../res/routes/route_name.dart';
 
 class AuthenticationController extends GetxController {
   AuthenticationController();
 
-  final _obj = ''.obs;
-  set obj(value) => _obj.value = value;
-  get obj => _obj.value;
+  navigateToLogin() {
+    Get.toNamed(RouteName.login);
+  }
 }
