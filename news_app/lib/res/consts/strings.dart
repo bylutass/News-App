@@ -48,4 +48,7 @@ class AppStrings {
   static const sports = "sports";
   static const politics = "politics";
   static const travel = "travel";
+
+  static String popularNews = "Popular News";
+  static const viewAll = "View all";
 }
